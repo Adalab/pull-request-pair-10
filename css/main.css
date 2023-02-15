@@ -1,8 +1,9 @@
 .head {
-    background: #fc0;
+    background:red;
     height: 100px;
     position: relative;
     width: 100px;
+    border-radius: 50px;
 }
 
 .face {
@@ -13,4 +14,13 @@
     position: absolute;
     top: 50%;
     transform: translate(-50%, -60%) rotate(90deg);
+}
+.body{ 
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    margin: auto;
 }
